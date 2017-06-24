@@ -79,8 +79,8 @@ function win() {
     
     function restart(){
     theWord = fruitsArray[Math.floor(Math.random() * fruitsArray.length)]; 
+    wrongGuess = [];
     guessAnswer = [];
-    //wrongGuess = [];
     startUp();
     document.getElementById("counter").innerHTML = "Remaining guesses: " + remainingGuesses;
     document.getElementById("logged-guess").innerHTML = " ";
