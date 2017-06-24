@@ -1,0 +1,26 @@
+body {
+    font-family: 'verdana', cursive;
+    background-image: url("../../assets/images/hangman_facebook-646x338.jpg");
+    background-size: 1100px 1000px;
+    text-align: left;
+    padding-left: 500px;
+    padding-top: 20px;
+    color: white;
+}
+header{
+	color: #32CD32;
+    text-align: left;
+    font-size: 50px;
+}
+
+h1 {
+    color: #32CD32;
+    text-align: left;
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-style: bold;
+    color: #32CD32;
+}
